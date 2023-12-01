@@ -1,0 +1,30 @@
+.d
+{
+    height: 80px;
+    width:80px;
+    background-color: blue;
+    margin: 100px;
+    animation:anim 2s ease 1s infinite;
+}
+
+@keyframes anim{
+    0%
+    {
+width:20px;
+background-color: blueviolet;
+border-radius: 10px;
+
+    }
+    50%
+    {
+        width:20px;
+        background-color: rgb(43, 174, 226);
+        border-radius: 20px 10px;
+    }
+    100%
+    {
+        width:100px;
+        background-color: rgb(52, 226, 43);
+        border-radius: 5px 5px;
+    }
+}
